@@ -10,7 +10,11 @@ body{
     animation-fill-mode: forwards;
     /* fade in */
     color: #532915 !important;
+
+    margin: 0;
+    padding: 0;
 }
+
 
 /* scroll bar */
 body::-webkit-scrollbar {
@@ -105,13 +109,13 @@ body::-webkit-scrollbar-thumb {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     background: #000;
 }
 .card .image {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -127,7 +131,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;/*100%*/
+    width: 100%;/*100%*/
     height: 100%;
     background: #532915;
     transition: .5s;
@@ -164,6 +168,7 @@ body::-webkit-scrollbar-thumb {
     color: #262626;
     font-size: 12px;
 }
+
 
 #promote-desc{
     margin-top: 60px;
@@ -220,5 +225,7 @@ body::-webkit-scrollbar-thumb {
     padding: 30px;
     margin-bottom: 20px !important;
 }
+
+
 
 
