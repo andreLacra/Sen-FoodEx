@@ -1,2 +1,2 @@
 # Sen-FoodEx
-A website for family food business
+A website for client's food business
